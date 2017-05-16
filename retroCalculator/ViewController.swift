@@ -46,6 +46,18 @@ class ViewController: UIViewController {
     
     }
 
+    @IBAction func clearButtonPressed(_ sender: Any) {
+        playSound()
+        
+        leftVal = ""
+        rightVal = ""
+        result = ""
+        currentOperation = .Empty
+        runningNumber = ""
+        outputLabel.text = "0"
+    }
+    
+    
     @IBAction func numberPressed(sender: UIButton){
         playSound()
         runningNumber += ("\(sender.tag)")
@@ -89,6 +101,13 @@ class ViewController: UIViewController {
             if runningNumber != "" {
                 rightVal = runningNumber
                 runningNumber = ""
+                
+                // catch leftVal = "" when operation button pressed first
+                // output label = 0 so should add rightVal to 0
+                if leftVal == "" {
+                    leftVal = "0"
+                }
+                
                 
                 if currentOperation == Operation.Multiply {
                     result = "\(Double(leftVal)! * Double(rightVal)!)"
