@@ -12,6 +12,8 @@
 		3EC17A871ECA049900FFD3D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC17A851ECA049900FFD3D1 /* Main.storyboard */; };
 		3EC17A891ECA049900FFD3D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC17A881ECA049900FFD3D1 /* Assets.xcassets */; };
 		3EC17A8C1ECA049900FFD3D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC17A8A1ECA049900FFD3D1 /* LaunchScreen.storyboard */; };
+		3EC17A941ECA398300FFD3D1 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EC17A931ECA398300FFD3D1 /* digital-7 (mono).ttf */; };
+		3EC17A961ECA3B1900FFD3D1 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3EC17A951ECA3B1900FFD3D1 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3EC17A881ECA049900FFD3D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC17A8B1ECA049900FFD3D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EC17A8D1ECA049900FFD3D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC17A931ECA398300FFD3D1 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
+		3EC17A951ECA3B1900FFD3D1 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		3EC17A801ECA049900FFD3D1 /* retroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				3EC17A931ECA398300FFD3D1 /* digital-7 (mono).ttf */,
+				3EC17A951ECA3B1900FFD3D1 /* btn.wav */,
 				3EC17A811ECA049900FFD3D1 /* AppDelegate.swift */,
 				3EC17A831ECA049900FFD3D1 /* ViewController.swift */,
 				3EC17A851ECA049900FFD3D1 /* Main.storyboard */,
@@ -123,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EC17A961ECA3B1900FFD3D1 /* btn.wav in Resources */,
+				3EC17A941ECA398300FFD3D1 /* digital-7 (mono).ttf in Resources */,
 				3EC17A8C1ECA049900FFD3D1 /* LaunchScreen.storyboard in Resources */,
 				3EC17A891ECA049900FFD3D1 /* Assets.xcassets in Resources */,
 				3EC17A871ECA049900FFD3D1 /* Main.storyboard in Resources */,
