@@ -309,6 +309,7 @@
 				3EC17A921ECA049900FFD3D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
